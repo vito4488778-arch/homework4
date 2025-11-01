@@ -68,7 +68,7 @@ struct AboutYorushika: View {
                     ScrollView(.vertical, showsIndicators: false) {
                         Text("""
                             日本女性歌手，樂團Yorushika（ヨルシカ）的主唱。2016年在VOCALOID製作人n-buna的1st Live「月を歩いている」首次以Guest Vocalist身份出場，後於2017年與n-buna組成雙人搖滾樂團Yorushika。所屬唱片公司為日本環球音樂。\n
-                                                        因為「不希望為音樂帶來先入為主的偏見」，所以關於n-buna和suis的官方消息除上述外別無其他，至今仍未公布兩人的樣貌等相關資料。
+                            因為「不希望為音樂帶來先入為主的偏見」，所以關於n-buna和suis的官方消息除上述外別無其他，至今仍未公布兩人的樣貌等相關資料。
                             """)
                         .bold()
                         .multilineTextAlignment(.leading)
