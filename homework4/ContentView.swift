@@ -1,21 +1,29 @@
 //
 //  ContentView.swift
-//  homework4
+//  Demo5
 //
-//  Created by 114iosClassStudent04 on 2025/11/1.
+//  Created by 114iosClassStudent04 on 2025/10/17.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView{
+            Tab("Releases", systemImage: "music.pages.fill"){
+                AlbumList()
+            }
+            Tab("Singles", systemImage: "music.note"){
+                SinglesMusic()
+            }
+            Tab("Characters", systemImage: "person.2"){
+                    CharacterView()
+                }
+            Tab("About", systemImage: "person.crop.circle.fill"){
+                AboutYorushika()
+                }
+            
         }
-        .padding()
     }
 }
 
